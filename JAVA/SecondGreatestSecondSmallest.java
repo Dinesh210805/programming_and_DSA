@@ -27,8 +27,7 @@ public class SecondGreatestSecondSmallest {
                 secondSmallest = digits[i];
             }
         }
-
-        Arrays.sort(digits);  
+ 
         System.out.println(secondGreatest);
         System.out.println(secondSmallest);
     }
